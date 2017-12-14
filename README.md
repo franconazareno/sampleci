@@ -1,4 +1,4 @@
-# Sample PHP Code Igniter RestAPI
+# Sample PHP CodeIgniter RestAPI
 Sample App for PHP CodeIgniter
 
 This sample project uses Chris Kacerguis [CodeIgniter Rest Server](https://github.com/chriskacerguis/codeigniter-restserver)
@@ -31,14 +31,14 @@ CREATE USER 'testci'@'localhost' IDENTIFIED BY 'testci!';
 GRANT ALL PRIVILEGES ON *.* TO 'testci'@'localhost';
 FLUSH PRIVILEGES;
 CREATE TABLE `user` (
-  `u_seq` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '¿Ø¿˙ ≈∞',
-  `u_id` varchar(50) DEFAULT NULL COMMENT '¿Ø¿˙ ¿Ã∏ﬁ¿œ',
-  `u_name` varchar(30) DEFAULT NULL COMMENT '¿Ø¿˙ ¿Ã∏ß',
-  `u_phone` varchar(20) DEFAULT NULL COMMENT '¿Ø¿˙ ¿¸»≠π¯»£',
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'µÓ∑œ¿œ',
-  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'ºˆ¡§Ω√∞£',
+  `u_seq` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Ïú†Ï†Ä ÌÇ§',
+  `u_id` varchar(50) DEFAULT NULL COMMENT 'Ïú†Ï†Ä Ïù¥Î©îÏùº',
+  `u_name` varchar(30) DEFAULT NULL COMMENT 'Ïú†Ï†Ä Ïù¥Î¶Ñ',
+  `u_phone` varchar(20) DEFAULT NULL COMMENT 'Ïú†Ï†Ä Ï†ÑÌôîÎ≤àÌò∏',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'Îì±Î°ùÏùº',
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'ÏàòÏ†ïÏãúÍ∞Ñ',
   PRIMARY KEY (`u_seq`),
   KEY `u_id-index` (`u_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='¿Ø¿˙ ≈◊¿Ã∫Ì';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Ïú†Ï†Ä ÌÖåÏù¥Î∏î';
 ````
 
