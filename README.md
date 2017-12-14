@@ -1,6 +1,8 @@
 # Sample PHP Code Igniter RestAPI
 Sample App for PHP CodeIgniter
 
+This sample project uses Chris Kacerguis [CodeIgniter Rest Server](https://github.com/chriskacerguis/codeigniter-restserver)
+
 #### Requirements:
 1. Apache (2.4.27)
 2. MySQL (5.6.23)
